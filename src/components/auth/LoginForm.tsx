@@ -1,7 +1,7 @@
 import { useState } from "react";
 import type { FormEventHandler } from "react";
 import type { LoginCredentials } from "../../types/auth";
-
+import "./LoginForm.css";
 
 interface LoginFormProps {
   error?: string;
